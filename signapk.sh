@@ -1,2 +1,3 @@
 #!/bin/sh
-/usr/bin/java -jar "tools/signapk.jar" "tools/testkey.x509.pem" "tools/testkey.pk8" "$@"
+mydir=`dirname "$0"`
+/usr/bin/java -jar "$mydir/tools/signapk.jar" "$mydir/tools/testkey.x509.pem" "$mydir/tools/testkey.pk8" "$@"

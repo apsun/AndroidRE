@@ -1,2 +1,3 @@
 #!/bin/sh
-/usr/bin/java -jar "tools/apktool.jar" "$@"
+mydir=`dirname "$0"`
+/usr/bin/java -jar "$mydir/tools/apktool.jar" "$@"
