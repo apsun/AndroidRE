@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check">Check</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="enter_license">Enter license</string>
+    <string name="enter_license_title">Unregistered copy</string>
+    <string name="enter_license_message">Please enter your license key:</string>
+    <string name="license_check_title">Result</string>
+    <string name="license_check_pass">Congratulations, your license was accepted! :-)</string>
+    <string name="license_check_fail">Sorry, your license is invalid! :-(</string>
+</resources>
